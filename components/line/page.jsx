@@ -1,5 +1,5 @@
 import React from "react";
-// import Charthead from "../Charthead/page";
+import Charthead from "../Charthead/page";
 import LineChart from "../linechart/page";
 function Line() {
   return (
