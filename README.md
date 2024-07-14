@@ -11,7 +11,7 @@ Wizard's Eye is a no-code platform that provides blockchain links on Solana for 
 ## Prerequisites
 
 - A web browser
-- A Solana wallet (e.g., Phantom)
+- A Solana Live Chart
 
 ## Installation
 
@@ -20,3 +20,28 @@ Wizard's Eye is a no-code platform that provides blockchain links on Solana for 
 ```bash
 git clone https://github.com/yourusername/wizards-eye.git
 cd wizards-eye
+```
+2. Install dependencies:
+ ```bash 
+# using npm
+npm install
+```
+
+Start the development server:
+ ```bash 
+# using npm
+npm install
+```
+## Usage
+-Generate Blockchain Links: Use the no-code interface to generate blockchain links for your favorite meme coins on Solana.
+-View Live Solana Chart: Access the live chart to monitor Solana price trends and market data.
+-Explore Meme Coins: Click on the provided links to explore and interact with various meme coins on Solana.
+
+## Technologies Used
+
+React: JavaScript library for building user interfaces.
+Block chain links: Using blockchain links from solana.
+Coingecko Live Chart API: API for fetching real-time Solana price charts.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
