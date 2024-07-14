@@ -7,11 +7,12 @@ import "react-datepicker/dist/react-datepicker.css";
 import styles from "./search.module.css";
 import { FaSearch } from "react-icons/fa";
 
-const page = () => {
+const Page = () => {
   const [startDate, setStartDate] = useState(new Date());
   const [selectedMemeCoin, setSelectedMemeCoin] = useState("");
   const [searchResults, setSearchResults] = useState([]);
   const [numberOfPeople, setNumberOfPeople] = useState("");
+  const [state, setState] = useState("");
 
   const data = [
     {
@@ -149,4 +150,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
