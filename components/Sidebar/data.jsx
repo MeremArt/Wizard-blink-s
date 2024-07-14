@@ -16,14 +16,10 @@ export const data = [
         title: "Dashboard",
         link: "/dashboard",
       },
-      //   {
-      //     title: "Travel",
-      //     link: "/documents/travel",
-      //   },
-      //   {
-      //     title: "Insurance",
-      //     link: "/Documents",
-      //   },
+      {
+        title: "Blink's link",
+        link: "/dashboard/Blink",
+      },
     ],
   },
   {
