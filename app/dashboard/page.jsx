@@ -25,7 +25,8 @@ ChartJS.register(
   Legend
 );
 
-const dashboard = () => {
+const Dashboard = () => {
+  const [state, setState] = useState("");
   const [chartData, setChartData] = useState({
     labels: [],
     datasets: [
@@ -129,4 +130,4 @@ const dashboard = () => {
   );
 };
 
-export default dashboard;
+export default Dashboard;
