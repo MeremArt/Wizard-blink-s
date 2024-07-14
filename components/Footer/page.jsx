@@ -5,7 +5,12 @@ function Footer() {
     <footer className="py-16 bg-black dark:bg-zinc-700">
       <div className="container flex flex-col items-center justify-between mx-auto space-y-16 md:flex-row md:space-y-0 md:items-start md:px-4">
         {/* Logo */}
-        <img src="/images/wiz.png" alt="logo" />
+        <img
+          src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720967231/eye-svgrepo-com_2_fmbqru.svg"
+          alt="logo"
+          width={50}
+          height={50}
+        />
 
         {/* Menus Container */}
         <div className="flex flex-col space-y-16 md:space-x-20 md:flex-row md:space-y-0">
@@ -16,7 +21,7 @@ function Footer() {
             </div>
             <div className="flex flex-col items-center space-y-3 md:items-start">
               <a href="#" className="capitalize text-white">
-                Live chat
+                What are Blink's
               </a>
 
               <a href="#" className="capitalize text-white">

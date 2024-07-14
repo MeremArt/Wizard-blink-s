@@ -18,7 +18,12 @@ function Navbar() {
           {/* flex container logo */}
           <div className="flex items-center space-x-8">
             {/* logo */}
-            <img src="/images/wiz.png" alt="logo" />
+            <img
+              src="https://res.cloudinary.com/dtfvdjvyr/image/upload/v1720967231/eye-svgrepo-com_2_fmbqru.svg"
+              alt="logo"
+              width={50}
+              height={50}
+            />
           </div>
           {/* middle menu */}
           <div className="hidden lg:flex mx-auto  space-x-20 justify-center font-medium">
@@ -37,18 +42,11 @@ function Navbar() {
           </div>
           <div className="hidden items-center justify-center space-x-6 font-medium text-black lg:flex dark:text-white">
             <a
-              href="/signin"
+              href="/dashboard"
               className=" flex px-8  py-3 font-medium text-black border-2 border-wizard rounded-full
         hover:bg-wizard hover:text-white duration-200 dark:text-white"
             >
-              Sign in
-            </a>
-            <a
-              href="/signup"
-              className=" flex px-8  py-3 font-medium text-white bg-wizard rounded-full text-transform: capitalize
-        hover:opacity-70 duration-200"
-            >
-              sign up free
+              Get started
             </a>
           </div>
           <div className="">
@@ -93,17 +91,11 @@ function Navbar() {
             </a>
 
             <a
-              href="/signin"
-              className="w-full pt-6 border-t border-gray-400 text-center"
-            >
-              Login
-            </a>
-            <a
-              href="/signup"
+              href="/dashboard"
               className="w-full py-3 text-center rounded-full bg-wizard"
             >
               {" "}
-              Sign up Free
+              Get Started
             </a>
           </div>
         </div>

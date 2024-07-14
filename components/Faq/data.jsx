@@ -1,26 +1,25 @@
 export const accordionData = [
   {
-    title: "What is the Support Wizard, and how does it work?",
-    content: `Support Wizard specializes in providing website live chat solutions that foster seamless communication and collaboration between customers and businesses. Our innovative platform enables real-time interactions, making it easier than ever for customers to engage with companies and receive prompt assistance`,
+    title: "What is Wizard BLinks?",
+    content: `Wizard BLinks is a platform that allows you to create and manage branded links for your meme coins without any coding skills.
+    `,
   },
   {
-    title: "Is my information safe when using live chat?",
-    content: `Yes, we take your privacy and data security seriously. All live chat conversations are encrypted and confidential. We do not share your information with third parties.`,
+    title: "How does Wizard BLinks work?",
+    content: `Wizard BLinks simplifies the process of creating and distributing links for meme coins, enabling effortless sharing and donation collection without the need for technical skills.`,
   },
   {
-    title: "What should I do if the live chat is offline?",
-    content: `If our live chat is offline, you can still leave a message, and we'll get back to you as soon as we're back online. .`,
+    title: "How secure are transactions on Wizard BLinks?",
+    content: `Transactions on Wizard BLinks are secure, leveraging modern encryption and best practices to ensure the safety of your donations and financial transactions..`,
   },
   {
-    title: "Can I access chat support on mobile devices?",
-    content: `Yes, our live chat is accessible on both desktop and mobile devices. You can chat with us from anywhere with an internet connection.`,
+    title: " Is Wizard BLinks free to use?",
+    content: `Yes, Wizard BLinks offers a free plan with essential features. Premium plans with additional benefits are also available for users looking to expand their capabilities.`,
   },
   {
-    title: "Is the Support Wizard available in multiple languages?",
-    content: `Currently, the Support Wizard is available in English languages. We plan to expand language support in the future.`,
-  },
-  {
-    title: "Is my conversation with the Support Wizard private and secure?",
-    content: `Yes, all conversations with the Support Wizard are confidential and secure. We prioritize your privacy and data security.`,
+    title: "Can I integrate Wizard BLinks with other platforms?",
+    content: `Yes, Wizard BLinks supports integration with various platforms and tools, allowing seamless management of your meme coin donations across different channels.
+
+    `,
   },
 ];

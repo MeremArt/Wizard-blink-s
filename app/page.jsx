@@ -4,7 +4,7 @@ import Image from "next/image";
 import Faq from "@/components/Faq/Faq";
 import Navbar from "@/components/navbar/page";
 import Footer from "@/components/Footer/page";
-import SupportEngine from "@/components/SupportEngine/page";
+
 export default function Home() {
   return (
     <>
@@ -16,27 +16,17 @@ export default function Home() {
             {/* content container  */}
             <div className="flex flex-col space-y-12 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
               <h1 className="text-5xl font-bold text-center lg:text-4xl lg:max-w-4xl lg:text-left dark:text-white">
-                Unlock Customer Delight with
-                <br />{" "}
-                <span className="text-wizard">Support Wizard&apos;s</span>
-                <br /> Enchanting Messaging!
+                Effortlessly Manage Meme Coin Links with
+                <br /> <span className="text-wizard">Wizard's Eye&apos;s</span>
+                <br /> No-code comfort, just click and share.
               </h1>
               <p className="text-xl text-center text-gray-400 lg:max-w-4xl lg:text-left tracking-wider  ">
-                With Support Wizard, you can seamlessly track your visitors
-                real-time page views, their Knowledge Base searches, and website
-                visits. Gain insight into their entire journey, identify team
-                members who interacted with customers recently, and effortlessly
-                maintain a comprehensive conversation history.
+                wizards's eye is a no-code platform designed for simplicity and
+                efficiency. Easily copy and share meme coin links without any
+                technical expertise.Blink's eye offers a seamless experience,
+                ensuring your links are always ready to go. Embrace the comfort
+                of no-code simplicity with Blink's eye
               </p>
-              <div className="flex-col md:flex-row mx-auto lg:mx-0 space-x-2">
-                <input
-                  className=" py-2 px-4 md:py-3 md:px-8 w-full mb-5 md:mb-0 md:w-64 text-black  text-left placeholder:text-sm  border-wizard border-2 rounded-full  placeholder:sm:text-center dark:bg-zinc-800 dark:text-white focus:outline-none "
-                  placeholder="Enter your email..."
-                />
-                <button className="text-sm w-full md:w-52 md:text-lg py-3 px-4 md:px-8 text-white bg-wizard rounded-full text-transform: capitalize hover:opacity-70 duration-200">
-                  Sign up<span className="hidden md:inline"> free</span>
-                </button>
-              </div>
             </div>
             {/* image */}
             <div className="mb-24 max-auto md:w-180 lg:mb-0 lg:w-1/2">
@@ -80,17 +70,17 @@ export default function Home() {
             </div>
             <div className="flex flex-col space-y-12 mb-44 lg:mt-16 lg:w-1/2 xl:mb-50">
               <h1 className="text-5xl font-bold text-center lg:text-4xl lg:max-w-4xl lg:text-right dark:text-white">
-                Fostering <span className="text-wizard"> Exceptional</span>{" "}
-                Customer Experiences
+                Get <span className="text-wizard"> Started</span> and Connect
+                Your Wallet
               </h1>
               <p className="text-xl text-center text-gray-400 lg:max-w-4xl lg:text-right tracking-wider  ">
-                Support Wizard envisions a world where you effortlessly see the
-                pages your visitors explore in real-time, understand their
-                quests within your Knowledge Base, and embrace their frequent
-                returns to your website. We aspire to provide a panoramic view
-                of their journey, ensuring you always know which team member
-                last engaged with a customer and maintain a rich conversation
-                history, fostering extraordinary customer experiences.
+                To begin using Wizard BLinks, the first step is to connect your
+                digital wallet securely. By integrating your wallet with Wizard
+                BLinks, you gain access to a seamless and efficient platform for
+                generating meme coin BLinks on the Solana blockchain. This
+                integration ensures that your transactions are secure and your
+                interactions with the platform are streamlined, providing you
+                with a hassle-free experience from the outset.
               </p>
             </div>
           </div>
@@ -101,18 +91,17 @@ export default function Home() {
             {/* content container  */}
             <div className="flex flex-col space-y-12 mb-44 lg:mt-16 lg:w-1/2 xl:mb-52">
               <h1 className="text-5xl font-bold text-center lg:text-4xl lg:max-w-4xl lg:text-left dark:text-white">
-                <span className="text-wizard">Pioneering </span>{" "}
-                Customer-Centricity
+                Copy Your <span className="text-wizard">Blink's Link </span>and
+                Share
               </h1>
               <p className="text-xl text-center text-gray-400 lg:max-w-4xl lg:text-left tracking-wider  ">
-                Support Wizard envisions a digital landscape where your
-                omnipresent presence is the lifeblood of the web. Our mission is
-                to ensure you are seamlessly aligned with your customers,
-                leaving no room for your competitors to claim the spotlight.
-                Armed with Live Chat, Ticketing, a Knowledge Base, and optional
-                video and voice add-ons, we empower you to be there for your
-                customers, fulfilling their needs precisely when and where they
-                need you most.
+                After selecting your desired meme coin BLink on Wizard BLinks,
+                the next step is to copy the generated BLink link. This link
+                serves as your digital footprint, allowing you to share it
+                across your social media channels, including Twitter and other
+                platforms. Sharing your BLink link enables you to reach a
+                broader audience, engaging potential supporters and
+                collaborators interested in your meme coin project.
               </p>
             </div>
             {/* image */}
@@ -128,56 +117,19 @@ export default function Home() {
           </div>
         </section>
         <br />
-        <section>
-          {/* hero container  */}
-          <div
-            className="container bg-cover bg-no-repeat py-24  flex flex-col mx-auto p-6 lg:flex-row"
-            style={{ backgroundImage: `url('/images/bddesk.png')` }}
-          >
-            {/* content container  */}
-            {/* image */}
-            <div className="mb-24 max-auto md:w-180 lg:mb-0 lg:w-1/2">
-              <Image
-                className="hover:scale-105 duration-300 "
-                src="/images/computer.png"
-                alt="feature"
-                loading="lazy"
-                width={600}
-                height={600}
-              />
-            </div>
-            <div className="flex flex-col space-y-12 mb-44 lg:mt-16 lg:w-1/2 xl:mb-50">
-              <h1 className="text-5xl font-bold text-center lg:text-4xl lg:max-w-4xl lg:text-right text-white">
-                <span className="text-black">Orchestrating</span> a Symphony of
-                Service
-              </h1>
-              <p className="text-xl text-center text-black lg:max-w-4xl lg:text-right tracking-wider lg:text-white  ">
-                In our visionary world, the process of effortlessly tagging and
-                assigning conversations to your esteemed team members is a
-                seamless orchestration. Every customer query finds its way to
-                the precise hands at precisely the right moment, forming a
-                synchronized symphony of service.
-              </p>
-            </div>
-          </div>
-        </section>
+        <section></section>
         <section
           className="bg-cover bg-center h-screen py-10   bg-no-repeat "
           style={{ backgroundImage: `url('/images/diff.png')` }}
         >
           <div>
             <h2 className=" cta flex text-3xl lg:text-5xl items-center justify-center mt-0 lg:mt-32  mx-auto tracking-wide leading-relaxed lg:leading-normal">
-              Transforming Website Visits into Sales <br /> and Customer
-              Satisfaction <br /> into Business
-              <br /> Success
+              Streamline Your Meme Coin BLink's <br /> Effortlessly with Our
+              No-Code Solution!
             </h2>
             <div className=" flex flex-col  md:flex-row items-center justify-center mt-2 lg:mt-28 mx-auto lg:mx-0 space-x-2">
-              <input
-                className="py-3 px-8 mb-4 md:mb-0 w-84 md:w-72 text-black text-left placeholder:text-sm  border-wizard border-2 rounded-full  placeholder:sm:text-left dark:bg-none  focus:outline-none "
-                placeholder="Enter your email..."
-              />
               <button className=" py-3 px-8 w-64 md:w-52 text-white bg-wizard rounded-full text-transform: capitalize hover:opacity-70 duration-200">
-                Sign up <span className="hidden md:inline"> free</span>
+                Start now
               </button>
             </div>
           </div>
@@ -190,7 +142,6 @@ export default function Home() {
             <Faq className="mt-10" />
           </div>
         </section>
-        <SupportEngine />
       </main>
       <Footer />
     </>
